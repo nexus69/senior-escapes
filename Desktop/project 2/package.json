@@ -2,9 +2,10 @@
   "name": "senior-escapes-tunisie",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nexus69.github.io/senior-escapes-site",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
